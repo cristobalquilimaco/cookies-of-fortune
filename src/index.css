@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: var(--box-color);
+    text-shadow: 7px 10px 0px #55A2D5;
+}
+
+button{
+    padding: 0.8rem 3rem;
+    color: #81898D;
+    background-color: #C2E7FF;
+    border-radius: 1rem;
+    border-color: #ffff;
+    border-width: 3px;
+    border-style:solid;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+@media (min-width : 700px) {
+    h1 {
+        max-width: 400px;
+        margin-bottom: 2rem;
+    }
+    
+}
