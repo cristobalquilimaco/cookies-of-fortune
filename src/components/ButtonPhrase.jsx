@@ -3,7 +3,7 @@ import phrase from "../utils/phrases.json"
 
 
 
-const ButtomPhrase = ({ setPhraseRandom, setImg }) => {
+const ButtonPhrase = ({ setPhraseRandom, setImg }) => {
 
     const changePhrase = () => {
         setPhraseRandom(getRandomArray(phrase))

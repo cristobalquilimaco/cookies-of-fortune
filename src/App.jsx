@@ -24,7 +24,7 @@ const appStyle = {
     <div className='phrases'>
       <Phrases phraseRandom={phraseRandom}/>
     </div>
-    <i class='bx bxs-quote-alt-right'></i>
+    <i className='bx bxs-quote-alt-right'></i>
     <ButtonPhrase setPhraseRandom={setPhraseRandom} setImg={setImg} />
     </div>
   )
