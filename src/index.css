@@ -22,12 +22,14 @@ h1 {
     text-shadow: 7px 10px 0px #55A2D5;
 }
 
+/* --------------------------------------------BUTTOM-------------------------------------- */
+
 button{
     padding: 0.8rem 3rem;
-    color: #81898D;
-    background-color: #C2E7FF;
+    color: var(--text-color);
+    background-color: var(--button-color);
     border-radius: 1rem;
-    border-color: #ffff;
+    border-color: var(--box-color);
     border-width: 3px;
     border-style:solid;
     font-size: 20px;
@@ -35,6 +37,14 @@ button{
     
 }
 
+
+button:hover{
+    background-color: var(--button-hover);
+    color: var(--box-color);
+}
+
+
+/* ---------------------------------MEDIA QUERY------------------------------------- */
 
 @media (min-width : 700px) {
     h1 {

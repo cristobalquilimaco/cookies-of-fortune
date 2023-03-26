@@ -1,5 +1,5 @@
 import './App.css'
-import ButtomPhrase from './components/ButtomPhrase'
+import ButtonPhrase from './components/ButtonPhrase'
 import Phrases from './components/Phrases'
 import phrases from './utils/phrases.json'
 import getRandomArray from './utils/getRandomArray'
@@ -25,7 +25,7 @@ const appStyle = {
       <Phrases phraseRandom={phraseRandom}/>
     </div>
     <i class='bx bxs-quote-alt-right'></i>
-    <ButtomPhrase setPhraseRandom={setPhraseRandom} setImg={setImg} />
+    <ButtonPhrase setPhraseRandom={setPhraseRandom} setImg={setImg} />
     </div>
   )
 }

@@ -15,4 +15,4 @@ const ButtomPhrase = ({ setPhraseRandom, setImg }) => {
     )
 }
 
-export default ButtomPhrase
+export default ButtonPhrase
