@@ -51,5 +51,10 @@ button:hover{
         max-width: 400px;
         margin-bottom: 2rem;
     }
-    
+
+    body {
+        margin: 0;
+    }
+
 }
+
