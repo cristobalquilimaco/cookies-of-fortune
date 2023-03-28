@@ -17,7 +17,7 @@ h1, p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Lilita One', cursive;
     color: var(--box-color);
@@ -50,6 +50,7 @@ button:hover{
 
 @media (min-width : 700px) {
     h1 {
+        font-size: 40px;
         max-width: 400px;
         margin-bottom: 2rem;
     }
@@ -58,13 +59,21 @@ button:hover{
         margin: 0;
     }
 
+    .phrases{
+        max-width: 600px;
+        max-height: 250px;
+        min-width: 600px;
+        min-height: 250px;
+        font-size: 25px;
+    }
 
-@media (max-width : 700px){
-    .phrases{    
-        max-width: 450px;
-        max-height: 50px;
-        min-width: 450px;
-        min-height: 50px;}
+    .bxs-quote-alt-right{
+        display: flex;
+        position: relative;
+        font-size: 50px;
+        bottom: 90px;
+        left: 250px;
+        color: var(--text-color);
+    }
 
-}
 }
