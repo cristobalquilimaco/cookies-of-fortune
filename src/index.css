@@ -57,6 +57,11 @@ button:hover{
     body {
         margin: 0;
     }
+.phrases{    max-width: 350px;
+    max-height: 50px;
+    min-width: 350px;
+    min-height: 50px;}
+
 
 }
 
