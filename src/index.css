@@ -57,12 +57,14 @@ button:hover{
     body {
         margin: 0;
     }
-.phrases{    
-    max-width: 450px;
-    max-height: 50px;
-    min-width: 450px;
-    min-height: 50px;}
 
+
+@media (min-width : 700px){
+    .phrases{    
+        max-width: 450px;
+        max-height: 50px;
+        min-width: 450px;
+        min-height: 50px;}
 
 }
-
+}
